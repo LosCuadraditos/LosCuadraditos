@@ -155,20 +155,20 @@ body {
     /* Personalize o estilo aqui */
     
     .announcement-bar {
-        background-color: #007bff; /* Muda a cor da barra de anúncio para azul */
+        background-color: #D7FF7A; /* Muda a cor da barra de anúncio para azul */
         font-size: 14px; /* Ajusta o tamanho do texto para telas menores */
     }
     .header{
         margin-bottom: 60px;
     }
     .header .logo {
-        width: 250px;
+        width: 200px;
         height: auto; /* Ajusta a altura proporcionalmente */
     }
 
     .footer{
         background-size: auto;
-        height: 160px;
+        height: 80px;
     }
 
     /* Você pode definir quaisquer outros ajustes, como padding, margens, etc. */
