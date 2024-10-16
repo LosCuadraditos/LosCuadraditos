@@ -117,7 +117,9 @@ body {
 }
 /* Media Query para telas menores (tablets e smartphones) */
 @media (max-width: 800px) {
- 
+    .container{
+        margind-bottom: 30px;
+    }
     .header{
         margin-bottom: 60px;
     }
@@ -180,6 +182,10 @@ body {
         font-size: 0.9em;
         max-width: 150px;
     }
+    .buttons {
+    /* margin-top: 20px; */
+    margin-bottom: 60px;
+}
     .announcement-bar {
         background-color: #D7FF7A; /* Muda a cor da barra de anúncio para azul */
         font-size: 8px; /* Ajusta o tamanho do texto para telas menores */
