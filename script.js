@@ -6,8 +6,8 @@ function initializeAnnouncements() {
     const currentDay = currentDate.getDay();
 
     // Mensagens
-    const deliveryMessage = "Faça o seu pedido via delivery com desconto agora pelo nosso What's app";
-    const orderMessage = "ENCOMENDAS --> Receba quentinho para o seu evento agendando seu pedido";
+    const deliveryMessage = "Peça pelo WhatsApp com descontos!";
+    const orderMessage = "Encomende nossas delícias para a sua festa!";
 
     // Variáveis de controle
     let isDeliveryOpen = false;
@@ -43,7 +43,7 @@ function initializeAnnouncements() {
         statusText = "ABERTO PARA ENCOMENDAS";
         statusIndicator.classList.add("status-open");
     } else {
-        currentMessage = "Olá jaja estaremos de volta, com os o cookies e brownies mais calientes del Recife";
+        currentMessage = "Olá! Em breve estamos de volta com os Brownies y Cookies mais calientes da região!";
         statusText = "FECHADO";
         statusIndicator.classList.add("status-closed");
     }
