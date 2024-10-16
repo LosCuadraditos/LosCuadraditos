@@ -118,6 +118,7 @@ body {
 /* Media Query para telas menores (tablets e smartphones) */
 @media (max-width: 800px) {
     .container{
+        margind-top:30px;
         margind-bottom: 30px;
     }
     .header{
