@@ -20,6 +20,8 @@ body {
     display: flex;
     align-items: center;
     z-index: 1000;
+    display: grid;
+    grid-template-columns:  1fr 10fr;
     /* padding-left: 10px; */
 }
 .status-indicator {
@@ -29,7 +31,11 @@ body {
     border-radius: 0px;
     margin-right: 0px;
     z-index: 1001;
+    align-self: stretch;
+    text-align: center;
+   
 }
+
 
 .status-open {
     background-color: green;
